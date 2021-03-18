@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+</head>
+<body>
+    <header>
+        <h1>Tabulky v HTML</h1>
+    </header>
+    <main>
+        <h2>Svavná osobnost: </h2>
+        <table border="1">
+            <caption>Vizitka Osobnosti</caption>
+            <thead>
+                <tr>
+                   <th>Portrét</th>
+                   <th colspen="2">Základní údaje</th>
+                   <th colspan="2">Významné činy</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="3"><img src="img/download.jpg" alt="HavelFoto"></td>
+                    <td colspan="2">Jméno a Příjmení</td>
+                    <td rowspan="4">Díla</td>
+                </tr>
+                <tr>
+                    <td>Narození</td>
+                    <td>Úmrtí</td>
+                </tr>
+                <tr>
+                    <td colspan="2" rowspan="2">Stručná charakteristika</td>
+                </tr>
+                <tr>
+                    <td>Popisek fotky</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">Odkaz na Wikipedii</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+    <footer>
+        <br>
+
+    </footer>
+</body>
+</html>
